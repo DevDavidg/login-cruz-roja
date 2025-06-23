@@ -212,8 +212,12 @@ const CampusPage = ({ user, onLogout }) => {
           {/* Mobile Header */}
           <div className="flex items-center justify-between lg:hidden">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary-red rounded-full flex items-center justify-center">
-                <Heart className="text-white" size={16} />
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-md">
+                <img
+                  src="/logo-cruz-roja.png"
+                  alt="Cruz Roja Argentina"
+                  className="w-4 h-4 object-contain"
+                />
               </div>
               <span className="font-bold text-neutral-dark-gray text-sm">
                 Campus
@@ -233,8 +237,12 @@ const CampusPage = ({ user, onLogout }) => {
           {/* Desktop Header */}
           <div className="hidden lg:flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-primary-red rounded-full flex items-center justify-center">
-                <Heart className="text-white" size={20} />
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
+                <img
+                  src="/logo-cruz-roja.png"
+                  alt="Cruz Roja Argentina"
+                  className="w-6 h-6 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-neutral-dark-gray">

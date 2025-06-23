@@ -45,7 +45,11 @@ const LoginPage = ({ demoUsers, onLogin }) => {
         {/* Logo y título responsive */}
         <div className="text-center mb-6 sm:mb-8 lg:mb-10">
           <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-white rounded-full mb-4 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-            <Heart className="text-primary-red" size={32} />
+            <img
+              src="/logo-cruz-roja.png"
+              alt="Cruz Roja Argentina"
+              className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 object-contain"
+            />
           </div>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
             Cruz Roja Argentina
